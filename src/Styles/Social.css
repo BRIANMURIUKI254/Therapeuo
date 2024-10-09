@@ -1,0 +1,39 @@
+.social-container {
+    position: relative;
+  }
+  
+  .social-image {
+    overflow: hidden; /* Ensures no overflow of the image */
+  }
+  
+  .social-image img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    transition: transform 0.34s ease-in-out; /* Transition effect */
+    transform: translateY(20px); /* Start slightly below */
+    opacity: 0; /* Start transparent */
+  }
+  
+  .slide-in {
+    animation: slideIn 0.38s forwards; /* Call the animation */
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px); /* Slide up from below */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+  
+  .social-content {
+    position: relative; /* Position content relative to the container */
+    color:black; /* Text color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center text alignment */
+  }
+  

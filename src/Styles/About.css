@@ -1,0 +1,7 @@
+.about-section {
+    background-image: url("../assets/Photos/About2.jpeg"); /* Replace with your image path */
+    background-size: cover;  /* Ensures the background covers the entire section */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Sets the height to full viewport height */
+  }
+  

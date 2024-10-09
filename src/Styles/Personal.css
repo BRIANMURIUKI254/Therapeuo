@@ -1,0 +1,99 @@
+.program-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+.program-image {
+    width: 40%;
+    border-radius:10px;
+    height:50vh;
+  }
+
+.program-image img {
+    width: 100%;
+    height: 48vh;
+    border-radius: 10px;
+  }
+
+.program-content {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width:60%;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #555;
+}
+
+.goals{
+    margin-bottom: 20px;
+}
+.goals h3{
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.goals ul{
+    list-style-type: disc; /* Adds bullet points */
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.goals li{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.skills{
+    margin-bottom: 20px;
+}
+.skills h3{
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+} 
+.skills ul{
+    list-style-type: disc; /* Adds bullet points */
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.skills li{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+ .why-choose {
+    margin-bottom: 20px;
+} 
+ .why-choose h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+} 
+
+.why-choose p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
